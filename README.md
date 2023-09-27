@@ -3,14 +3,14 @@ An extension to help self-learner to be focused.
 
 FocusLearningAssistant is a Chrome extension designed to help users stay focused on their learning goals. It allows users to set specific learning objectives and encourages them to focus on related resources. If users navigate to unrelated web pages, the extension redirects them to a reminder page, helping them to maintain their focus on their learning goals.
 
-![[screenshot_popup1 1.png]]
 
-![[screenshot_popup2.png]]
+![Screenshot of the extension](https://github.com/Abby-Liu/FocusSelfLearning/blob/main/screenshot_popup1.png)
 
-![[screenshot_stayfocus.png]]
+![Screenshot of the extension](https://github.com/Abby-Liu/FocusSelfLearning/blob/main/screenshot_popup2.png)
 
-![[screenshot_popup3.png]]
+![Screenshot of the extension](https://github.com/Abby-Liu/FocusSelfLearning/blob/main/screenshot_stayfocus.png)
 
+![Screenshot of the extension](https://github.com/Abby-Liu/FocusSelfLearning/blob/main/screenshot_popup3.png)
 ## Features
 
 - **Set Learning Goals:** Users can define a specific learning objective and the desired duration for their learning session.
