@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Focus</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <form id="setGoalForm">
+        <label for="learningTarget">Learning Goal:</label>
+        <select id="learningTarget">
+            <option value="english">English</option>
+            <option value="math">Math</option>
+            <!-- Add more options as needed -->
+        </select><br><br>
+
+        <label for="learningDuration">Duration (minutes):</label>
+        <select id="learningDuration">
+            <option value="30">30</option>
+            <option value="60">60</option>
+            <!-- Add more options as needed -->
+        </select><br><br>
+
+        <input type="submit" value="Set Goal" class="action-button">
+    </form>
+
+    <div id="statusDisplay">
+        <p id="currentGoal"></p>
+        <p id="remainingTime"></p>
+    </div>
+
+    <button id="cancelLearningButton" class="action-button">Cancel Learning</button>
+    <button id="cancelBreakButton" class="action-button">Cancel Break</button>
+
+    <script src="popup.js"></script>
+</body>
+</html>

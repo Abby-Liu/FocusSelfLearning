@@ -1,0 +1,25 @@
+body {
+    width: 300px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.action-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 5px;
+}
+
+.action-button:hover {
+    background-color: #0056b3;
+}
+
+form, #statusDisplay {
+    margin-bottom: 15px;
+}
